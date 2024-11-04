@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Karla+Tamil+Upright:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "arvo";
+}
+header{
+    background-image: url(/assets/bgHeader.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 56vw;
+    margin: 0 auto;
+    padding: 0;
+    background-size: 100%;
+    font-family: "arvo";
+}
+.n1 h1{ 
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff8940;
+    font-size: 420%;
+    
+
+}
+.n1 h2{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 175%;
+    font-weight: normal;
+}
+.n2{
+    display: flex;
+    align-items: center;
+}
+
+.n2 img{
+    padding: 100px;
+    margin-right: 140px;
+    
+}
+.n2 h2{
+    font-size: 40px;
+
+}
+.n2 p{
+    font-size: 25px;
+}
+.texto{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 180px;
+}
