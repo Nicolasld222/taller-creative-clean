@@ -8,7 +8,7 @@
 header{
     background-image: url(/assets/bgHeader.png);
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 56vw;
     margin: 0 auto;
     padding: 0;
@@ -131,28 +131,32 @@ header{
 /* Pagina 4 */
 .n4{
     background: url(/assets/bgDown.png);
-    width: 99%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     background-size: cover;
-    background-position: center;
-    padding: 367px 9px;
+    padding: 226px 0px;
     margin-top: 140px;
+    height: 100%;
 }
 
 .n4 h2{
+    font-size: 300%;
+    line-height: 140%;
     color: #ff8940;
-    font-size: 36px;
-    font-weight: 400;
-    margin-bottom: 20px;
 }
 .n4 p{
-    color: #666;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 4%;
 }
+.texto4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: 290px;
+    margin-bottom: 76px;
+}
+
 /* footer */
 footer {
     background: #ff8940;
